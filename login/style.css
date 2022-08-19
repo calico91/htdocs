@@ -1,0 +1,61 @@
+*{
+    padding: 0px; /*todo alienado a la izquierda */
+    margin: 0px;    
+}
+.principal{
+    width: 100%;
+    height: 600px;
+}
+.formulario{
+    background-color: rgb(91, 84, 84);
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 150px;
+    height: 200px;
+    border-bottom: rgb(30, 234, 30) 20px solid;
+    border-radius: 10px;
+}
+form{
+    color: white;
+    padding-top: 10px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+.subtitulo{
+    width: 100%;
+    height: 100px;
+}
+h2{
+    font-size: 30px;
+    padding-top: 20px;
+    text-align: center;
+}
+label{
+    font-size: 20px;
+}
+.usuario{
+margin-left: 70px; 
+}
+.contrasena{
+    margin-left:80px ;
+}
+.inusuario{
+    width: 150px;
+    margin-left: 20px;
+}
+.incontrasena{
+    width: 150px;
+    margin-left: 30px;
+}
+input{
+    height: 20px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+}
+.botoningresar{
+    margin-top: 160px;
+    margin-left: 200px;
+    width: 90px;
+    height: 50px;
+}

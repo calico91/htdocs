@@ -1,0 +1,45 @@
+/* el selector * nos ayuda a selecionar todos los elementos
+quitamos todos paddin y margin */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* estilos para el contenedor principal */
+.principal{
+    width: 100%;
+    height: 600px;
+}
+/* estilos para el contenedor tabla */
+.tabla{
+    margin-left: 200px;
+    margin-right: 299px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 5px green;
+    background-color: grey;
+    color: white;
+}
+/* estilos aplicados para el contenedor titulo sirve como base de h1 */
+.titulo{
+    width: 846px;
+    height: 50px;
+    padding-left: 20px;
+    background-color: green;
+}
+/* estilos para el titulo de la tabla */
+h1{
+    padding-top: 10px;
+    text-align: center;
+}
+/* estitulos utilizados para la tabla donde se muestran los resultados de la consulta */
+table{
+    width: 100%;
+}
+/* estilos aplicados a las filas de la tabla */
+td{
+    padding-left: 10px;
+    border-right: green;
+    height: 35px;
+}
+td:hover{
+    background-color: green;
+}
